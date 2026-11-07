@@ -69,7 +69,7 @@ Access is part of Cloudflare Zero Trust. The first time you open it, Cloudflare 
 After that, Zero Trust → Access controls → Applications works as in step 8.
 
 ## More services
-Same tunnel: Add route again, one hostname each. It can point at another machine on your network, for example `https://192.168.1.10:8006` for Proxmox (turn on No TLS Verify for its self-signed certificate). Every new hostname needs its own Access application, or one application for `*.yourdomain`, otherwise it is open to anyone.
+Same tunnel: Add route again, one hostname each. It can point at another machine on your network, for example `https://192.168.1.10:8006` for Proxmox (Additional application settings → TLS → turn on Disable TLS certificate verification, because Proxmox uses its own certificate). Every new hostname needs its own Access application, or one application for `*.yourdomain`, otherwise it is open to anyone.
 
 ## Good to know
 - Your traffic goes through Cloudflare (one connection phone → Cloudflare, another Cloudflare → your server).
