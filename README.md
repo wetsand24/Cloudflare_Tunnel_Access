@@ -2,6 +2,8 @@
 
 The files from the video: Uptime Kuma and cloudflared in one Docker Compose file, published through a Cloudflare Tunnel and locked with Cloudflare Access (email one-time PIN).
 
+▶️ Video: https://youtu.be/-m-GpkTv3Lo
+
 ## What you need
 - A domain with its DNS on Cloudflare. If you don't have a domain, you can buy one on Cloudflare.
   If your domain is at another registrar (GoDaddy, Namecheap...), keep it there: add it to Cloudflare and change its
