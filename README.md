@@ -4,6 +4,8 @@ The files from the video: Uptime Kuma and cloudflared in one Docker Compose file
 
 ▶️ Video: https://youtu.be/-m-GpkTv3Lo
 
+My other videos: [Jellyfin setup](https://youtu.be/hurqeeMF53U) (to watch from outside, it uses Tailscale instead) · [Nginx Proxy Manager + Tailscale](https://youtu.be/U9tIwCmWctc) (names and HTTPS for your apps at home)
+
 ## What you need
 - A domain with its DNS on Cloudflare. If you don't have a domain, you can buy one on Cloudflare.
   If your domain is at another registrar (GoDaddy, Namecheap...), keep it there: add it to Cloudflare and change its
